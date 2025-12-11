@@ -165,7 +165,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - **Issues**: [GitHub Issues](https://github.com/yourusername/secure-auth-demo/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/yourusername/secure-auth-demo/discussions)
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **Email**: [emperorvineet7@gmail.com](mailto:emperorvineet7@gmail.com)
 
 ---
 
