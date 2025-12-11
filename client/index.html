@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Authentication Demo - Student Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Main container for the entire application -->
+    <div class="container">
+        <div class="header">
+            <h1>🔐 Secure Authentication Demo</h1>
+            <p class="subtitle">A comprehensive demonstration of password hashing and authentication security</p>
+        </div>
+
+        <!-- Two-column layout for signup and login -->
+        <div class="main-content">
+            <!-- Left column: User Registration and Login -->
+            <div class="auth-section">
+                <!-- Sign Up Form -->
+                <div class="form-container">
+                    <h2>Create Account</h2>
+                    <div id="signup-message" class="message-area"></div>
+                    
+                    <form id="signup-form">
+                        <div class="input-group">
+                            <label for="signup-username">Username</label>
+                            <input type="text" id="signup-username" placeholder="Enter your username" required>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="signup-password">Password</label>
+                            <input type="password" id="signup-password" placeholder="Create a strong password" required>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="confirm-password">Confirm Password</label>
+                            <input type="password" id="confirm-password" placeholder="Confirm your password" required>
+                        </div>
+                        
+                        <!-- Password strength indicator -->
+                        <div class="password-strength">
+                            <label>Password Strength</label>
+                            <div class="strength-bar">
+                                <div id="strength-fill" class="strength-fill"></div>
+                            </div>
+                            <span id="strength-text" class="strength-text">Enter a password</span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Create Account</button>
+                    </form>
+                </div>
+
+                <!-- Divider -->
+                <div class="divider"></div>
+
+                <!-- Login Form -->
+                <div class="form-container">
+                    <h2>Login</h2>
+                    <div id="login-message" class="message-area"></div>
+                    
+                    <form id="login-form">
+                        <div class="input-group">
+                            <label for="login-username">Username</label>
+                            <input type="text" id="login-username" placeholder="Enter your username" required>
+                        </div>
+                        
+                        <div class="input-group">
+                            <label for="login-password">Password</label>
+                            <input type="password" id="login-password" placeholder="Enter your password" required>
+                        </div>
+                        
+                        <div class="button-group">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                            <button type="button" id="clear-data-btn" class="btn btn-secondary">Clear All Data</button>
+                        </div>
+                    </form>
+                    
+                    <div class="demo-info">
+                        <small>💡 Demo tip: Create any username like "alice" with password "Password123!"</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right column: Information and Tools -->
+            <div class="info-section">
+                <!-- Stored Data Display -->
+                <div class="info-container">
+                    <h2>📊 Stored User Data</h2>
+                    <p class="info-text">See how passwords are securely hashed and stored:</p>
+                    <div id="stored-data" class="data-display">
+                        No users registered yet.
+                    </div>
+                </div>
+
+                <!-- Password Hashing Tool -->
+                <div class="info-container">
+                    <h2>🔧 Password Hashing Tool</h2>
+                    <p class="info-text">Test password hashing with random salt:</p>
+                    
+                    <div class="input-group">
+                        <label for="test-password">Test Password</label>
+                        <input type="text" id="test-password" placeholder="Enter password to hash">
+                    </div>
+                    
+                    <button id="hash-test-btn" class="btn btn-primary">Generate Hash</button>
+                    
+                    <div id="hash-result" class="data-display">
+                        Enter a password and click "Generate Hash" to see the result.
+                    </div>
+                </div>
+
+                <!-- Educational Information -->
+                <div class="info-container">
+                    <h2>📚 Why This Matters</h2>
+                    <div class="educational-content">
+                        <ul>
+                            <li><strong>Password Hashing:</strong> Converts passwords into unreadable strings</li>
+                            <li><strong>Salt:</strong> Random data added to prevent rainbow table attacks</li>
+                            <li><strong>Rate Limiting:</strong> Prevents brute force attacks</li>
+                            <li><strong>Client-side Demo:</strong> Real apps store data on secure servers</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footer-content">
+                <span>🎓 Student Project - Secure Authentication Demo</span>
+                <span>Open browser console (F12) to see detailed logs</span>
+            </div>
+        </div>
+
+        <!-- Demo Notice -->
+        <div class="demo-notice">
+            <strong>⚠️ Demo Notice:</strong> This application uses localStorage for demonstration purposes only. 
+            In production, user credentials should be stored securely on a server with proper encryption (bcrypt/argon2).
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
