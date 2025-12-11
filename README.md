@@ -112,16 +112,18 @@ secure-auth-demo/
 
 ## 📸 Interface Preview
 
+> **📁 All screenshots are available in the [`/screenshots`](screenshots/) directory**
+
 ### Main Application
 ![Main Interface - Account Creation & Data Visualization](screenshots/main-interface.png)
 *Complete interface showing account creation, password strength indicator, and real-time data storage visualization*
 
 ### Authentication Success
-![Successful Login Experience](screenshots/login-success.png)
+![Successful Login Experience](screenshots/login.png)
 *Clean login interface with success feedback and user guidance*
 
 ### Educational Tools
-![Password Hashing Demonstration](screenshots/hashing-tool.png)
+![Password Hashing Demonstration](screenshots/password-hashing.png)
 *Interactive password hashing tool showing salt generation and SHA-256 output*
 
 ![Secure Data Storage](screenshots/stored-data.png)

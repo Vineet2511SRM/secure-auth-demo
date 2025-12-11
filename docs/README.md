@@ -248,6 +248,8 @@ The screenshots above demonstrate how this project provides:
 
 ## 📸 Screenshots & Interface Walkthrough
 
+> **📁 Screenshot files**: [`/screenshots`](../screenshots/) | **📋 Screenshot details**: [`screenshots/README.md`](../screenshots/README.md)
+
 ### 1. Main Application Interface
 ![Main Interface](screenshots/main-interface.png)
 
@@ -266,7 +268,7 @@ The screenshots above demonstrate how this project provides:
 ---
 
 ### 2. Successful Login Experience
-![Successful Login](screenshots/login-success.png)
+![Successful Login](screenshots/login.png)
 
 **Authentication Flow Demonstrated:**
 - **Username Field**: Clean input with proper labeling
@@ -283,7 +285,7 @@ The screenshots above demonstrate how this project provides:
 ---
 
 ### 3. Password Hashing Tool in Action
-![Password Hashing Tool](screenshots/hashing-tool.png)
+![Password Hashing Tool](screenshots/password-hashing.png)
 
 **Educational Demonstration:**
 - **Input Field**: Test password entry (`Kaiser@@7782` shown as example)
