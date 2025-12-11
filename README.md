@@ -28,7 +28,7 @@ A comprehensive educational project demonstrating secure authentication concepts
 
 ## 🌐 Live Demo
 
-🚀 **[Try the Live Demo](https://yourusername.github.io/secure-auth-demo/client/)**
+🚀 **[Try the Live Demo]https://secure-authentication-demo.vercel.app/
 
 *Experience secure authentication concepts in action*
 
@@ -109,6 +109,23 @@ secure-auth-demo/
 - **Storage Visualization**: See how data is securely stored
 - **Console Logging**: Educational messages and explanations
 - **Security Information**: Built-in explanations of concepts
+
+## 📸 Interface Preview
+
+### Main Application
+![Main Interface - Account Creation & Data Visualization](screenshots/main-interface.png)
+*Complete interface showing account creation, password strength indicator, and real-time data storage visualization*
+
+### Authentication Success
+![Successful Login Experience](screenshots/login-success.png)
+*Clean login interface with success feedback and user guidance*
+
+### Educational Tools
+![Password Hashing Demonstration](screenshots/hashing-tool.png)
+*Interactive password hashing tool showing salt generation and SHA-256 output*
+
+![Secure Data Storage](screenshots/stored-data.png)
+*Live visualization of how user credentials are securely stored with salts and hashes*
 
 ## 🛠️ Technical Highlights
 

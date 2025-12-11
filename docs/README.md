@@ -237,29 +237,100 @@ Students will understand:
 - **Cybersecurity**: Authentication mechanisms
 - **Software Engineering**: Secure coding practices
 
-## 📸 Screenshots
+### Visual Learning Benefits
 
-### Main Interface
-```
-┌─────────────────────────────────────────────────────────┐
-│  🔐 Secure Authentication Demo                          │
-│  A comprehensive demonstration of password hashing...   │
-├─────────────────────┬───────────────────────────────────┤
-│ Create Account      │ 📊 Stored User Data               │
-│ ┌─────────────────┐ │ ┌───────────────────────────────┐ │
-│ │ Username        │ │ │ 👤 User: alice                │ │
-│ │ Password        │ │ │ 🧂 Salt: a1b2c3...           │ │
-│ │ Confirm Pass    │ │ │ 🔐 Hash: d4e5f6...           │ │
-│ │ [Strength: ███] │ │ │ 📅 Created: 2024-01-15       │ │
-│ └─────────────────┘ │ └───────────────────────────────┘ │
-│                     │                                   │
-│ Login               │ 🔧 Password Hashing Tool          │
-│ ┌─────────────────┐ │ ┌───────────────────────────────┐ │
-│ │ Username        │ │ │ Test Password: [input]        │ │
-│ │ Password        │ │ │ [Generate Hash]               │ │
-│ └─────────────────┘ │ │ Result: salt + hash display   │ │
-└─────────────────────┴───────────────────────────────────┘
-```
+The screenshots above demonstrate how this project provides:
+
+1. **Immediate Visual Feedback**: Students can see security concepts in action
+2. **Real-time Data Visualization**: Understanding how secure storage actually works
+3. **Interactive Learning**: Hands-on experience with cryptographic functions
+4. **Professional Interface**: Exposure to modern web development practices
+
+## 📸 Screenshots & Interface Walkthrough
+
+### 1. Main Application Interface
+![Main Interface](screenshots/main-interface.png)
+
+**Key Features Shown:**
+- **Left Panel**: User registration and login forms with clean, modern design
+- **Right Panel**: Real-time data visualization and educational tools
+- **Header**: Professional branding with clear project description
+- **Responsive Layout**: Two-column grid that adapts to different screen sizes
+
+**Educational Elements:**
+- ✅ **Success Messages**: Green confirmation when account is created successfully
+- 📊 **Data Visualization**: Live display of how user data is securely stored
+- 🔧 **Interactive Tools**: Password hashing demonstration tool
+- 💡 **User Guidance**: Helpful tips and demo suggestions
+
+---
+
+### 2. Successful Login Experience
+![Successful Login](screenshots/login-success.png)
+
+**Authentication Flow Demonstrated:**
+- **Username Field**: Clean input with proper labeling
+- **Password Field**: Secure input with placeholder text
+- **Success Feedback**: Clear green message confirming successful authentication
+- **Action Buttons**: Primary login button and secondary data management option
+
+**Security Features Visible:**
+- ✅ **Personalized Welcome**: Shows username to confirm successful authentication
+- 🔒 **Password Clearing**: Password field automatically cleared after login attempt
+- 💡 **Demo Guidance**: Educational tips for testing the system
+- 🎯 **User Experience**: Immediate, clear feedback on authentication status
+
+---
+
+### 3. Password Hashing Tool in Action
+![Password Hashing Tool](screenshots/hashing-tool.png)
+
+**Educational Demonstration:**
+- **Input Field**: Test password entry (`Kaiser@@7782` shown as example)
+- **Hash Generation**: One-click demonstration of the hashing process
+- **Detailed Output**: Comprehensive breakdown of the hashing result
+
+**Technical Information Displayed:**
+- 🔑 **Original Password**: Shows the input for educational transparency
+- 🧂 **Generated Salt**: Displays the random salt (`c8784f4eaf19f557dfbeecc2404d0d92d`)
+- 🔐 **SHA-256 Hash**: Complete hash output with full hexadecimal string
+- 📏 **Hash Length**: Shows standard 64-character length for SHA-256
+- ⏰ **Timestamp**: When the hash was generated
+- ℹ️ **Educational Note**: Explains why each hash is unique due to random salting
+
+**Learning Value:**
+- Demonstrates the irreversible nature of cryptographic hashing
+- Shows how salts make identical passwords produce different hashes
+- Provides hands-on experience with cryptographic concepts
+
+---
+
+### 4. Secure Data Storage Visualization
+![Stored User Data](screenshots/stored-data.png)
+
+**Data Structure Demonstration:**
+- **User Information**: Shows how user accounts are organized
+- **Security Implementation**: Displays actual salt and hash values
+- **Metadata Tracking**: Creation and last login timestamps
+
+**Storage Details Shown:**
+- 👤 **Username**: `Molu` (example user account)
+- 🧂 **Salt**: `0a25eb59c35402423b2741e5be1fb2e0` (unique random salt)
+- 🔐 **Hash**: `b2c897fced656ce973f9c97496f162b9fb8a166f9cd...` (SHA-256 hash)
+- 📅 **Created**: Account creation timestamp
+- 🕐 **Last Login**: Most recent successful authentication
+
+**Educational Insights:**
+- **No Plain Text**: Demonstrates that original passwords are never stored
+- **Unique Salts**: Each user has a different salt, even for identical passwords
+- **Proper Structure**: Shows how authentication data should be organized
+- **Audit Trail**: Timestamps provide security monitoring capabilities
+
+**Security Concepts Illustrated:**
+- ✅ **Data Separation**: Salt and hash stored separately but linked
+- ✅ **Irreversible Storage**: No way to recover original password from stored data
+- ✅ **Unique Hashing**: Same password would produce different hash for different users
+- ✅ **Metadata Management**: Proper tracking of account lifecycle events
 
 ## 🚀 Future Improvements
 
