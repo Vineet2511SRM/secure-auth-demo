@@ -28,7 +28,7 @@ A comprehensive educational project demonstrating secure authentication concepts
 
 ## 🌐 Live Demo
 
-🚀 **[Try the Live Demo]https://secure-authentication-demo.vercel.app/
+🚀 **[Try the Live Demo](https://secure-authentication-demo.vercel.app/)**
 
 *Experience secure authentication concepts in action*
 
