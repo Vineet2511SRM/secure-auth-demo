@@ -31,7 +31,7 @@ This project is an educational demonstration of secure authentication practices.
 
 ## 🌐 Live Demo
 
-🚀 **[Try the Live Demo](https://yourusername.github.io/secure-auth-demo/client/)**
+🚀 **[Try the Live Demo]https://secure-authentication-demo.vercel.app/
 
 *Replace with your actual GitHub Pages URL*
 
